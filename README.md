@@ -11,7 +11,7 @@ specify the required variables and run the command `terraform init`.
 
 ```hcl
 module "gitlab_pipeline_schedule" {
-  source  = "gitlab.com/terraform-child-modules-48151/terraform-gitlab-pipeline_schedule/local"
+  source  = "gitlab.com/terraform-child-modules-48151/terraform-gitlab-pipeline-schedule/local"
   version = "1.0.0"
 
   project     = "example-project-48165"
