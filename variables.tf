@@ -1,6 +1,6 @@
 variable "cron" {
   type        = string
-  description = "The cron"
+  description = "The cron expression (e.g. `0 1 * * *`)"
 }
 
 variable "description" {
@@ -15,7 +15,7 @@ variable "project" {
 
 variable "ref" {
   type        = string
-  description = "The branch/tag name to be triggered"
+  description = "The branch/tag name to be triggered. This must be the full branch reference, for example: `refs/heads/main`, not `main`"
 }
 
 variable "active" {
